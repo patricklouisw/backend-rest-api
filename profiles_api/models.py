@@ -35,7 +35,6 @@ class UserProfileManager(BaseUserManager):
         return user
 
 
-
 # UserModel
 class UserProfile(AbstractBaseUser, PermissionsMixin):
     """Custom User Model for users in the system"""
